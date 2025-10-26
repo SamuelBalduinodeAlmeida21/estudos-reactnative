@@ -3,8 +3,8 @@
 //import { StatusBar } from 'expo-status-bar';
 //import { StyleSheet, Text, View } from 'react-native';
 
-// SafeAreaView = ele gerencia o espaço seguro de onde os components e tags devem estar
 import { Text } from 'react-native';
+// SafeAreaView = ele gerencia o espaço seguro de onde os components e tags devem estar
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FirstComponent } from "./shared/components/FirstComponent";
 import { MyBt } from "./shared/components/MyBt";
