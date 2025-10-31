@@ -12,7 +12,7 @@ import { MyBt } from "./shared/components/MyBt";
 export default function App() {
   return <>
 
-  <SafeAreaView>
+  <SafeAreaView> 
     <FirstComponent order={1} />
     <FirstComponent order={2} />
     <FirstComponent order={3} />
