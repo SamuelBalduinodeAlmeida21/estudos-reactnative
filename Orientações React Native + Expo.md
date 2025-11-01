@@ -298,4 +298,11 @@ bolinha de carregamento!
 
 #### States
 
-'''setState''' e '''useState''' são funções que atuam sempre junto do *flux render* do react native, em casa de dúvida, reassista a aula;
+O reactnative basicamente fica executando funçõe spor debaixo dos panos, quando ele executa da primeira vez, ele mostra o html na tela, mas sempre que eu incluo alguma coisa ele precisa recarregar TUDO toda vez que incluímos ou alteramos algo e assim ele dispara uma nova incialização, ou seja, isso chamamos de ***fluxo de render***.
+
+'''setState''' e '''useState''' são funções que atuam sempre junto do *fluxo de render* do react native, em casa de dúvida, reassista a aula.
+
+o ***useState*** é uma função simples do próprio react, não do reactnative.
+
+porque não usamos um simples *let*
+
